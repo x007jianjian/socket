@@ -24,6 +24,7 @@
 #include <stdlib.h> // getenv
 #endif
 
+#pragma comment (lib, "ws2_32.lib")  //加载 ws2_32.dll
 #pragma warning(disable : 4996)
 
 //#include <othka/utils/platform.h>
